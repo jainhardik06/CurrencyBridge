@@ -69,5 +69,3 @@
 - Expanded Currency Support
     - Add support for additional fiat currencies and cryptocurrencies
     - Partner with financial institutions for seamless fiat-to-crypto conversions
-
-This feature list outlines the key functionalities of the Cross-Border Transactions Platform, providing a comprehensive solution for secure, transparent, and efficient cross-border money transfers and currency conversions.
