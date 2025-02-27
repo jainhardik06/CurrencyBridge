@@ -221,7 +221,10 @@ nav .login:hover a {
   margin-top: 20px;
   width: 100%;
   color: white;
+  justify-content: space-around;
+}
 
+.webcrumbs1{
 
 .container {
     width: 400px;
@@ -383,4 +386,86 @@ nav .login:hover a {
     background: darkorange;
 }
 
+}
+
+
+.webcrumbs2 {
+
+        .container {
+            width: 350px;
+            background-color: #292929;
+            padding: 16px;
+            border-radius: 16px;
+        }
+        .header, .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .flag-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .flag img {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+        }
+        .exchange-rate {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #333333;
+            margin-bottom: 12px;
+        }
+        .input-container {
+            background-color: #333333;
+            border-radius: 50px;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+        }
+        .input-container input {
+            background: transparent;
+            border: none;
+            font-size: 24px;
+            width: 100%;
+            color: white;
+            outline: none;
+        }
+        .swap {
+            display: flex;
+            justify-content: center;
+            margin: 12px 0;
+        }
+        .swap-btn {
+            width: 48px;
+            height: 48px;
+            background-color: #f2a649;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .swap-btn:hover {
+            transform: rotate(180deg);
+        }
+        .action-btn {
+            width: 40px;
+            height: 40px;
+            background-color: #cc66cc;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .action-btn:hover {
+            transform: scale(1.1);
+        }
 }
